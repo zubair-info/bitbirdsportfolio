@@ -1,0 +1,831 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Bit Birds Template
+	Template URL: http://www.bitbirds.com
+	Description: ByteHolders is a software development Agency Company. This is company Official Website
+	Author: Zubair Ahmed
+	License: GNU General Public
+	Version: 2022.0.1
+    copyright: BitBirds
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Common Class
+    3. Navigation Area
+	4. Getting Started Banner
+    5. About Us Area
+	6. Service Area
+    7. Portfolio Area
+	8. portfolio Area
+	9. Contact Area
+	10. FAQ Area
+    11. Footer Area
+-----------------------------------------------------------------------------------*/
+/************** 1. Typography ************************/
+
+/* ============================== common csss starts here============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: rgba(21,29,65,1);
+}
+
+p {
+  line-height: 35px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 18px; */
+  color: rgba(21,29,65,1);
+}
+
+.title-heading {
+  font-weight: 700;
+  padding: 30px 0px;
+  text-align: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: 40px;
+  color: rgba(21,29,65,1);
+}
+
+.main-heading {
+  text-align: center;
+  padding-top: 80px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: 40px;
+  color: rgba(21,29,65,1);
+}
+
+.primary-portfolio-btn {
+  display: inline-block;
+  padding: 16px 60px !important;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0;
+  background-color: #FBB416;
+  font-weight: bold;
+  color: white !important;
+}
+
+.primary-portfolio-btn:hover {
+  background-color: #FDEAC0;
+  color: #FBB416 !important;
+}
+
+.button-heading {
+  display: inline-block;
+  padding: 8px 45px !important;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0;
+  background-color: #FDEAC0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(248,178,24,1);
+}
+
+
+/* ====================== =============common csss starts here================================== */
+
+
+
+
+/*====================================== Nav Bar section Start=================================== */
+.navbar .nav-link {
+  color: #aaa;
+  margin-left: 30px;
+  padding-top: 14px;
+}
+
+.navbar .nav-link:hover {
+  color: #FBB416 !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #FBB416 !important;
+  border-color: #FBB416;
+}
+
+.navbar-brand img {
+  vertical-align: middle;
+  width: 80%;
+}
+
+/*====================================== Nav Bar section End ====================================*/
+
+
+
+
+
+/*====================================== Bannersection start ====================================*/
+.banner-bg{
+  position: relative;
+}
+.bannner {
+  padding-top: 80px;
+  background: url(../../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+
+  height: 800px;
+  /* padding: 80px 90px; */
+  margin: 0px 80px;
+}
+
+.content .button-heading {
+  margin-top: 80px;
+}
+
+.bannner .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  padding: 10px 0px;
+}
+
+.bannner .content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0px;
+}
+
+.bannner .content h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.bannner .content span{
+  font-size: 18px;
+ 
+}
+
+
+.bannner .content p {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.bannner .content .primary-portfolio-btn {
+  margin-top: 60px;
+}
+/* .banner .primary-portfolio-btn{
+  margin-top: 90px;
+} */
+
+.icon {
+  position: absolute;
+  left: 0;
+  top: 43%;
+  transform: translate(-50%, -50%);
+}
+
+.bannner .icon li {
+  margin: 10px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 70px;
+  height: 50px;
+  border-radius: 0px 23px 23px 0px;
+}
+
+.icon .twiter {
+  margin: 10px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  width: 70px;
+  height: 50px;
+  border-radius: 0px 23px 23px 0px;
+  background: #FBB416;
+}
+
+.icon .twiter a {
+  color: white;
+}
+
+.icon a {
+  padding: 10px 0px 10px 25px;
+  font-size: 25px;
+  color: black;
+}
+.icon-mobile{
+  display: none;
+}
+
+/*====================================== Banner section End =======================================*/
+
+
+
+
+
+/*====================================== About section starts  ====================================*/
+.about {
+  margin-top: 80px;
+
+}
+
+
+.about-bg {
+  margin-top: 80px;
+  background-image: url(../../images/about.png);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  background-size: 47% 386px;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* height: 950px; */
+ 
+}
+.about-bg img{
+  width: 70%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.about-round {
+  position: relative;
+}
+
+.about .round-shape {
+  position: absolute;
+  border-radius: 50%;
+  border: 30px solid #FBB416;
+  width: 230px;
+  height: 230px;
+  left: -2%;
+  top: 0%;
+  background: #fff;
+}
+
+.about .about-bg img {
+  width: 92%;
+}
+
+.about .content{
+  padding: 0px 50px;
+
+}
+.about .content{
+  padding: 0px 50px;
+  padding-top: 105px;
+
+}
+
+
+.about .button-heading {
+  margin-top: 40px;
+}
+
+.about h2 {
+  padding: 50px 0px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+
+
+
+/*====================================== About section End ====================================*/
+
+
+
+
+
+
+/*====================================== exprice section starts ================================ */
+
+
+.portfolio{
+  margin-top: 0px;
+}
+.experience{
+  width: 100%;
+}
+.portfolio-slider{
+  margin: 0px 48px;
+  padding: 10px;
+
+}
+
+.slick-track {
+  margin-top: 20px !important;
+}
+
+.slick-prev {
+  left: -50px;
+  background: red;
+ 
+}
+.slick-next{
+right: -50px;
+background: red;
+}
+
+.slick-center{
+  transform: scale(1.3);
+  /* margin-top: 10px; */
+}
+
+.slick-prev,
+.slick-next
+{
+  /* font-size: 0; */
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: red;
+    
+}
+.slick-prev:before {
+  content: '←';
+  font-size: 30px;
+  color: #FBB416;
+  font-weight: 700;
+}
+.slick-next:before {
+  content: '→';
+  font-size: 30px;
+  color: #FBB416;
+  font-weight: 700;
+}
+
+.portfolio-info .all-info{
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-info  .left-text{
+  width: 30%;
+  margin-left: 80px;
+}
+.portfolio-info  .center-text{
+  width: 40%;
+  text-align: center;
+}
+.portfolio-info  .center-text p{
+  text-align: center;
+}
+.portfolio-info  .right-text{
+  width: 30%;
+}
+
+
+/*====================================== exprice section ends ================================ */
+
+
+
+
+
+
+/*====================================== Job portfolio section starts=========================*/
+
+.portfolio .menu ul {
+  text-align: center;
+  /* padding-bottom: 20px; */
+}
+
+.portfolio .menu li {
+  display: inline-block;
+  /* position: relative; */
+  /* padding: 0px 10px; */
+  padding: 8px 10px;
+  cursor: pointer;
+ 
+
+}
+
+.portfolio .menu li:hover {
+  border-bottom: 2px solid #FBB416;
+  /* transition: all .3s ease-out 0s; */
+  cursor: pointer;
+}
+.portfolio .menu  li a{
+  font-weight: 700;
+  padding: 5px 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.portfolio .menu li a:hover{
+  /* transition: all .3s ease-out 0s; */
+  /* color: #fbb216!important; */
+  border-bottom: 2px solid #FBB416;
+
+}
+
+.portfolio .myfilter .mix {
+  /* margin: 10px; */
+  padding: 8px;
+}
+
+.portfolio .myfilter img {
+  width: 100%;
+  height: 400px;
+}
+
+/*====================================== Job portfolio section ends=========================*/
+
+
+
+
+
+
+
+/*====================================== service section starts ============================*/
+
+.we-provide{
+  /* margin-top: 50px; */
+  background: url(../../images/about.png);
+  background-position: right bottom;
+  background-size: 12% 280px;
+  background-repeat: no-repeat;
+}
+.service .border_dash {
+  border-bottom: 6px dashed #FBB416 !important;
+  width: 13%;
+  margin-right: 10px;
+
+}
+
+#Path_70 {
+  fill: #FBB416;
+  font-size: 20px;
+  /* border-radius: 50%; */
+  border: 1px solid red;
+}
+
+.service .svg-round {
+  border: 2px solid #FBB416;
+  padding: 17px 16px;
+  height: 85px;
+  border-radius: 50%;
+  width: 85px;
+  margin-top: 20px;
+
+}
+.service .box{
+  /* padding-right: 30px;
+   */
+   /* margin: 0px 15px; */
+}
+.service-btn{
+  display: inline-block;
+  padding: 6px 40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  background-color: #FBB416;
+  font-weight: 400;
+  color: white !important;
+  margin-bottom: 30px;
+
+}
+.service .fa-arrow-right{
+  font-size: 14px;
+}
+.arrow_x{
+  font-size: 14px;
+  fill: white;
+  width: 20px;
+  margin-left: 5pzx;
+}
+.service .card{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+  padding: 20px;
+  margin-top: 10px;
+
+}
+.service .card:hover{
+  background-color: #FBB416;
+  color: white;
+}
+.service .card:hover #Path_70{
+  fill:white;
+}
+.service .card:hover .service-btn{
+  background: white;
+  color: black !important;
+}
+.service .card:hover .border_dash{
+  border-bottom: 6px dashed white !important;
+}
+.service .card:hover .svg-round{
+  border: 2px solid white;
+}
+.service h3{
+  padding: 20px 0px;
+  font-weight: 700;
+}
+.service p{
+  padding: 10px 0px;
+  line-height: 30px;
+  margin: 10px 0px
+}
+
+/*====================================== service section ends================================ */
+
+
+
+
+
+
+/*============================== My skills section starts ==================================*/
+
+
+/* .skill-portfolio{
+  padding-top: 80px;
+} */
+
+
+.expertise{
+  overflow: hidden;
+  padding: 40px 0px;
+}
+.expertise h2{
+  float: left;
+  font-weight: 700;
+
+}
+.expertise a{
+  float: right;
+
+}
+.portfolio .myfilter .mix {
+  /* margin: 10px; */
+  /* padding: 16px; */
+  /* margin-top: 20px; */
+}
+.skills h2{
+   font-size: 36px;
+   font-weight: 700;
+   padding: 20px 0px;
+   padding-top: 50px;
+   
+}
+.skills h3{
+  font-weight: 700;
+}
+
+/* progress bar */
+
+.barfiller {
+  width: 100%;
+  height: 5px;
+  background: #FDEAC0;
+  /* border: 1px solid #ccc; */
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #333;
+  z-index: 1;
+}
+
+.barfiller .tipWrap { display: none; }
+
+.barfiller .tip {
+  margin-top: -30px;
+  padding: 2px 4px;
+  font-size: 11px;
+  color: #fff;
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+  background: #333;
+}
+
+.barfiller .tip:after {
+  border: solid;
+  border-color: rgba(0,0,0,.8) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 100%;
+  z-index: 9
+}
+
+/*============================== My skills section starts ==================================*/
+
+
+
+
+
+
+/*============================== Education section starts ==================================*/
+
+
+.edu-info .solid-border{
+
+  border: 2px solid #aaa;
+  margin-top: 35px;
+
+}
+.edu-info h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 20px;
+  color:rgba(21,29,65,1);
+}
+.edu-info h3{
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0px;
+  color:rgba(21,29,65,1);
+}
+.edu-info p{
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  color:rgba(21,29,65,1);
+}
+
+
+/*============================== Education section ends ==================================*/
+
+
+
+
+/*============================== testimonial section starts ===============================*/
+
+
+.testimonial-bg{
+  margin-top: 50px;
+  background: url(../../images/about.png);
+  background-position: left top;
+  background-size: 12% 280px;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* height: 950px; */
+}
+.testimonial-slider{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  height: 450px;
+  text-align: center;
+  margin: 0px 150px;
+ 
+}
+
+.testimonial-slider .slick-prev {
+  left: -90px;
+}
+.testimonial-slider .slick-next{
+  right: -90px;
+}
+.testimonial-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 120px;
+  text-align: center;
+
+}
+.testimonial-item p{
+  text-align: center;
+
+}
+.testimonial-item h2{
+  color: #FBB416;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.testimonial-shadow{
+
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  height: 50px;
+  background-color: white;
+  margin-top: -50px;
+  margin: 0 190PX;
+
+}
+
+
+/*============================== testimonial section ends ===============================*/
+
+
+
+
+
+/*================================= contact section  form strats ========================= */
+
+.contact-form-bg{
+  background: url(../../images/about.png);
+  background-position: right bottom;
+  background-size: 12% 280px;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.contact-form{
+  padding: 0 15%;
+}
+.input-form{
+  margin: 60px 0px;
+}
+
+.input-form,
+.select-form,
+.textarea-form{
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(21,29,65,1);
+    background-color: #fff;
+    border: 2px solid rgba(21,29,65,1);;
+    outline: 0;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+::placeholder{
+  /* padding-left: 10px; */
+  color: rgba(21,29,65,1);
+  font-size: 15px;
+  margin-left: 10px;
+}
+.textarea-form{
+  margin-top: 20px;;
+}
+
+/*================================= contact section  form strats ========================= */
+
+
+
+
+
+
+/*================================= foooter  section  starts       ===================== */
+
+.footer-top{
+
+   margin-top: 200px;
+}
+.footer-top img{
+  /* width: 100%; */
+  padding-bottom: 10px;
+}
+.footer-top .footer-box{
+  padding-top: 80px;
+}
+.footer-box h5{
+  color: #FBB416;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-family: Mu;
+}
+.footer-box h4{
+  font-size: 18px;
+}
+
+/*================================= foooter section   ends======== ===================== */
